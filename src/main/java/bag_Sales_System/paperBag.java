@@ -3,8 +3,8 @@ package bag_Sales_System;
 //We don't use abstract after the access modifier because the paperBag class is the concrete class
 //The meaning of the concrete class it means we can create an object within the class
 
-public class paperBag extends Bag{
 
+public class paperBag extends Bag{
     //We extend to the abstract class, so we need to implement the getPrice() method
     public double getPrice(){
         //The length and width are private to bag class(Encapsulated)
