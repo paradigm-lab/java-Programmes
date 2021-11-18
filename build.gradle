@@ -5,9 +5,9 @@ plugins {
 }
 
 apply plugin: 'application'
-mainClassName = "projectatm.Main"
+mainClassName = "AllProgram.main"
 
-group 'projectatm'
+group 'AllProgram'
 version '1.0-SNAPSHOT'
 
 repositories {
