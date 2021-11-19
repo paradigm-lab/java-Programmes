@@ -21,15 +21,15 @@ public class bankAccount {
 
     public void deposit(double amount){
         balance += amount;
-        System.out.println(name + "has Tsh." + balance);
+        System.out.println(name + " has Tsh." + balance);
     }
 
     public void withdraw(double amount){
         if (amount <= balance) {
             balance -= amount;
-            System.out.println(name + " has $" + balance);
+            System.out.println(name + " has Tsh." + balance);
         } else {
-            System.out.println("Withdrawal by" + name + " fails");
+            System.out.println("Withdrawal by " + name + " fails");
         }
     }
 
@@ -39,8 +39,8 @@ public class bankAccount {
             } else {
                 this.balance -= amount;
                 acc.balance += amount;
-                System.out.println("Account of " + this.name + " becomes Tsh" + this.balance);
-                System.out.println("Account of " + acc.name + " becomes Tsh" + acc.balance);
+                System.out.println("Account of " + this.name + " becomes Tsh." + this.balance);
+                System.out.println("Account of " + acc.name + " becomes Tsh." + acc.balance);
             }
     }
 
