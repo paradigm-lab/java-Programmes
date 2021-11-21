@@ -1,2 +1,4 @@
-package Multiple_choice;public class Game {
+package Multiple_choice;
+
+public class Game {
 }

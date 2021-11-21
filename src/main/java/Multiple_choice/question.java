@@ -1,2 +1,4 @@
-package Multiple_choice;public class question {
+package Multiple_choice;
+
+public class question {
 }
