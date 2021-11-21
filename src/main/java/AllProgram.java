@@ -5,6 +5,7 @@ import Bank_account.bank;
 import Compare_students_marks.marks;
 //import projectatm.ATM;
 //import Branch_sales_performance.sales;
+import Multiple_choice.Multiple;
 
 public class AllProgram{
 
@@ -14,7 +15,8 @@ public class AllProgram{
 		//driver.main(args);
 		//bank.main(args);
 		//sales.main(args);
-		marks.main(args);
+		//marks.main(args);
+		Multiple.main(args);
 
 	}
 }
