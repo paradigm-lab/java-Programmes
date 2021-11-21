@@ -5,6 +5,15 @@ import java.util.Scanner;
 
 public class sales {
     public static void main(String[] args) throws Exception{
+
+        /*
+            Branch sales performance
+            -> Load yearly sales data of 3 branches from text file
+            -> Evaluate yearly sales amount for all branches
+            -> Evaluate quarterly sales performance for each branch
+         */
+
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter file name, including the extension: ");
         String filename = scan.nextLine();
