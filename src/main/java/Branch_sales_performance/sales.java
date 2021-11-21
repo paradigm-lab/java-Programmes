@@ -9,6 +9,7 @@ public class sales {
         System.out.println("Enter file name, including the extension: ");
         String filename = scan.nextLine();
         scan.close();
+
         File myFile = new File(filename);
         scan = new Scanner(myFile);
 
