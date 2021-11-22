@@ -1,2 +1,4 @@
-package Driving_license_system;public class GenericDriver {
+package Driving_license_system;
+
+public class GenericDriver {
 }
