@@ -12,6 +12,9 @@ public class Multiple {
                 -> Record number of correct answer of that Game instance
          */
 
+        Game g = new Game();
+        g.start();
+
 
     }
 
