@@ -5,7 +5,8 @@ import Bank_account.bank;
 import Compare_students_marks.marks;
 //import projectatm.ATM;
 //import Branch_sales_performance.sales;
-import Draw_staircases.staircases;
+//import Draw_staircases.staircases;
+import Driving_license_system.License;
 //import Multiple_choice.Multiple;
 
 public class AllProgram{
@@ -18,7 +19,8 @@ public class AllProgram{
 		//sales.main(args);
 		//marks.main(args);
 		//Multiple.main(args);
-		staircases.main(args);
+		//staircases.main(args);
+		License.main(args);
 
 	}
 }
