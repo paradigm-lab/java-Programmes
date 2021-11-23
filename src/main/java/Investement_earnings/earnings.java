@@ -3,7 +3,7 @@ package Investement_earnings;
 import java.util.Scanner;
 
 public class earnings {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         /*
         Investment earning
         -> Enter the buying price per share
@@ -13,15 +13,15 @@ public class earnings {
         */
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your buying price per share: ");
-        double buyingPrice = scan.nextDouble();
+        System.out.println("Enter your buying price per share: ");
+        double buyingPrice = 0.0;
+        buyingPrice = scan.nextDouble();
         int day = 1;
 
         double closingPrice = 0.1;
         while (true) {
-            System.out.print("Enter the closing price for day: " + day + " (any negative value to leave: ");
+            System.out.println("Enter the closing price for day: " + day + " (any negative value to leave: ");
             closingPrice = scan.nextDouble();
-
             if (closingPrice < 0.0) {
                 break;
             }
