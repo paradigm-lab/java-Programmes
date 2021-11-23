@@ -14,7 +14,7 @@ public class earnings {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your buying price per share: ");
-        double buyingPrice = 0.0;
+        double buyingPrice;
         buyingPrice = scan.nextDouble();
         int day = 1;
 
