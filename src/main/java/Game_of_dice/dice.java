@@ -1,7 +1,5 @@
 package Game_of_dice;
 
-import Multiple_choice.Game;
-
 import java.util.Scanner;
 import java.util.Random;
 
@@ -27,10 +25,10 @@ public class dice {
         Game player = new Game(numDice, trials);
         playerPoints = player.play("Player", playerTarget);
 
-        int computerTaget = choice.nextInt(6) + 1;  //1 to 6
-        System.out.println("Computer's target is " + computerTaget);
+        int computerTarget = choice.nextInt(6) + 1;  //1 to 6
+        System.out.println("Computer's target is " + computerTarget);
         Game computer = new Game(numDice, trials);
-        computerPoints = computer.play("Computer", computerTaget);
+        computerPoints = computer.play("Computer", computerTarget);
 
         if (playerPoints > computerPoints){
             System.out.println("You win");
