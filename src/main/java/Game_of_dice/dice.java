@@ -1,5 +1,10 @@
 package Game_of_dice;
 
+import Multiple_choice.Game;
+
+import java.util.Scanner;
+import java.util.Random;
+
 public class dice {
     public static void main(String[] args){
         /*
@@ -11,5 +16,31 @@ public class dice {
         -> If you get more chosen numbers that the computer does, you win
          */
 
+        int numDice = 3, trials = 5;
+        int playerPoints = 0, computerPoints = 0;
+        Random choice = new Random();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Choose your target number: ");
+        int playerTarget = scan.nextInt();
+
+        // Creating the game object
+        Game player = new Game(numDice, trials);
+        playerPoints = player.play("Player", playerTarget);
+
+        int computerTaget = choice.nextInt(6) + 1;  //1 to 6
+        System.out.println("Computer's target is " + computerTaget);
+        Game computer = new Game(numDice, trials);
+        computerPoints = computer.play("Computer", computerTaget);
+
+        if (playerPoints > computerPoints){
+            System.out.println("You win");
+        }
+        else if(playerPoints < computerPoints) {
+            System.out.println("Computer wins");
+        }
+        else {
+            System.out.println("Draw");
+        }
+        scan.close();
     }
 }
