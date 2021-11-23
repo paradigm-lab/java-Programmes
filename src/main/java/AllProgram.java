@@ -7,7 +7,8 @@ import Compare_students_marks.marks;
 //import Branch_sales_performance.sales;
 //import Draw_staircases.staircases;
 //import Driving_license_system.License;
-import Game_of_dice.dice;
+//import Game_of_dice.dice;
+import Investement_earnings.earnings;
 //import Multiple_choice.Multiple;
 
 public class AllProgram{
@@ -22,7 +23,8 @@ public class AllProgram{
 		//Multiple.main(args);
 		//staircases.main(args);
 		//License.main(args);
-		dice.main(args);
+		//dice.main(args);
+		earnings.main(args);
 
 	}
 }
