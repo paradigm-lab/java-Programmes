@@ -39,19 +39,19 @@ public class GiftBox {
 
     public void showBiscuitsWeights() {
         for (Biscuits biscuit : biscuitsSet){
-            System.out.print(biscuit.getWeight() + " ");
+            System.out.println(biscuit.getWeight() + " ");
         }
     }
 
     public void showChocolateWeights() {
         for (Chocolate chocolate : ChocolateSet) {
-            System.out.print(chocolate.getWeight() + " ");
+            System.out.println(chocolate.getWeight() + " ");
         }
     }
 
     public void showChocolateFlavors() {
         for (Chocolate chocolate : ChocolateSet) {
-            System.out.print(chocolate.getFlavor() + " ");
+            System.out.println(chocolate.getFlavor() + " ");
         }
     }
 }
