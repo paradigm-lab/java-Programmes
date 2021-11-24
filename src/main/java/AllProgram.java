@@ -8,7 +8,8 @@ import Compare_students_marks.marks;
 //import Draw_staircases.staircases;
 //import Driving_license_system.License;
 //import Game_of_dice.dice;
-import Investement_earnings.earnings;
+//import Investement_earnings.earnings;
+import gift_box_weight.gift;
 //import Multiple_choice.Multiple;
 
 public class AllProgram{
@@ -24,7 +25,8 @@ public class AllProgram{
 		//staircases.main(args);
 		//License.main(args);
 		//dice.main(args);
-		earnings.main(args);
+		//earnings.main(args);
+		gift.main(args);
 
 	}
 }
