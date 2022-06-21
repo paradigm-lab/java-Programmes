@@ -33,4 +33,20 @@ There are two broad categories of data types in java:
     In Java, array index start at zero. The first element of an array is at index 0, the second element is at index 1 and so on.
     Additionally we can get the length of an array by calling the lenght property, By using the identifier
 
+# Java keywords
+    Keywords are reserved words that have special meaning in Java.
+    For example: public, final, private, class, new, instanceof and so on, We can't use them as identifiers (Variable names).
+
+# Operators in Java
+    Opertors are special symbols that perform specific operations on one, two or three operands, and then return the result.
+        # Arithmetic Operators 
+            * Java supports the following arithmetic operators that can be used for writing mathematical, computational logic
+                + (Addition or plus), - (Subtraction), * (Multiplication), / (Division), % (Modulus or remainder)
+                Note: Another use of plus(+) is for concatenation(Joining) of Strings to form a whole new String
+        # Logical Operators 
+            * The Logical Opertors are used for evaluating boolean expressions:
+                && (AND), || (OR), !(NOT)
+        # Comparison Operators
+            * When we need to compare the value of one variable to that of another, we can use Java's comparison operators:
+                < (Less than), > (Greater than), >= (Greater than or equal to), <= (Less than or equal to), == (equal to), != (NOT equal to)
 
