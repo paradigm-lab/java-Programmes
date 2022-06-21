@@ -24,3 +24,13 @@ There are two broad categories of data types in java:
         * can't be a reserved keyword
         * can't be true, false (Boolean) or null
 
+# Arrays 
+    An array is a reference type that can store a collection of values of a specific type.
+    General Syntax of declaring an array in java is:
+        type[] identifier = new type[length];
+        * The type can be any primitive or Object/Reference type
+    To refer to a specific element of an array, or to assign a value to an element, we use the variable name and its index.
+    In Java, array index start at zero. The first element of an array is at index 0, the second element is at index 1 and so on.
+    Additionally we can get the length of an array by calling the lenght property, By using the identifier
+
+
