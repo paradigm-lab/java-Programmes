@@ -50,3 +50,10 @@ There are two broad categories of data types in java:
             * When we need to compare the value of one variable to that of another, we can use Java's comparison operators:
                 < (Less than), > (Greater than), >= (Greater than or equal to), <= (Less than or equal to), == (equal to), != (NOT equal to)
 
+# Java Program Structure 
+    The basic unit of a Java program is a Class: A class can have one or more fields (sometimes called properties), methods, and even other class members called innter classes.
+
+    For a class to be executable, it must have a main method. The main method signifies the entry point of the program.
+    
+    The source code for a Java program is stored in a file with an extension of .java
+
