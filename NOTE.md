@@ -57,3 +57,9 @@ There are two broad categories of data types in java:
     
     The source code for a Java program is stored in a file with an extension of .java
 
+# Compiling and Executing a Program
+    To execute the Java source code, We first need to compile it. This process will generate a byte code with the .class file extension.
+    We can execute the byte code on any machine that has a Java Runtime Environment (JRE) installed.
+    Example: 
+        * javac "FileName.java" to Byte code
+        * java "ClassFile" to Execute the Byte code to the JRE
