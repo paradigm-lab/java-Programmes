@@ -7,10 +7,11 @@ There are two broad categories of data types in java:
 
     * Primitive Types
         Are the basic types that store simple data and form the foundation of data manipulation. 
-        For example, Integer Values(int, long, short), 
-        Floating-point values (float and double),
-        Character Values (char)
-        Logical Values (boolean)
+	We have eight(8) primitive data type defined in Java:
+		* int, byte, short, long, float, double, boolean, char
+
+	Note: This aren't considered objects are represented raw values.
+	      They are stored directly on the stack.
 
     * Object/Reference Types (Non-primitive types)
         Are objects that contain reference to values and/or other objects or 
